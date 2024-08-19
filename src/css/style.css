@@ -48,8 +48,11 @@ body {
 .taskbar {
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.125);
+    margin-left: 250px;
+    margin-right: 250px;
+    width: calc(100% - 500px);
 }
 
 .center img,
@@ -539,9 +542,9 @@ figure {
 }
 
 .hint {
-    color: #fafa00;
-    margin: 2px;
-    font-size: 0.8rem;
+    color: #fafafa;
+    margin: 3px;
+    font-size: 0.85rem;
 }
 
 .window {
